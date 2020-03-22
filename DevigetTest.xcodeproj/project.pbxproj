@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110E66A12428270B0064B2EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66A02428270B0064B2EA /* AppDelegate.swift */; };
+		110E66A32428270B0064B2EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66A22428270B0064B2EA /* ViewController.swift */; };
+		110E66A52428270C0064B2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110E66A42428270C0064B2EA /* Assets.xcassets */; };
+		110E66A82428270C0064B2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110E66A62428270C0064B2EA /* Main.storyboard */; };
+		110E66B42428270C0064B2EA /* DevigetTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66B32428270C0064B2EA /* DevigetTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110E66B02428270C0064B2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110E66952428270B0064B2EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110E669C2428270B0064B2EA;
+			remoteInfo = DevigetTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110E669D2428270B0064B2EA /* DevigetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevigetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E66A02428270B0064B2EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		110E66A22428270B0064B2EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		110E66A42428270C0064B2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110E66A72428270C0064B2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110E66A92428270C0064B2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110E66AA2428270C0064B2EA /* DevigetTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevigetTest.entitlements; sourceTree = "<group>"; };
+		110E66AF2428270C0064B2EA /* DevigetTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevigetTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E66B32428270C0064B2EA /* DevigetTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevigetTestTests.swift; sourceTree = "<group>"; };
+		110E66B52428270C0064B2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110E669A2428270B0064B2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E66AC2428270C0064B2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110E66942428270B0064B2EA = {
+			isa = PBXGroup;
+			children = (
+				110E669F2428270B0064B2EA /* DevigetTest */,
+				110E66B22428270C0064B2EA /* DevigetTestTests */,
+				110E669E2428270B0064B2EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110E669E2428270B0064B2EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110E669D2428270B0064B2EA /* DevigetTest.app */,
+				110E66AF2428270C0064B2EA /* DevigetTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110E669F2428270B0064B2EA /* DevigetTest */ = {
+			isa = PBXGroup;
+			children = (
+				110E66A02428270B0064B2EA /* AppDelegate.swift */,
+				110E66A22428270B0064B2EA /* ViewController.swift */,
+				110E66A42428270C0064B2EA /* Assets.xcassets */,
+				110E66A62428270C0064B2EA /* Main.storyboard */,
+				110E66A92428270C0064B2EA /* Info.plist */,
+				110E66AA2428270C0064B2EA /* DevigetTest.entitlements */,
+			);
+			path = DevigetTest;
+			sourceTree = "<group>";
+		};
+		110E66B22428270C0064B2EA /* DevigetTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				110E66B32428270C0064B2EA /* DevigetTestTests.swift */,
+				110E66B52428270C0064B2EA /* Info.plist */,
+			);
+			path = DevigetTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110E669C2428270B0064B2EA /* DevigetTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E66B82428270C0064B2EA /* Build configuration list for PBXNativeTarget "DevigetTest" */;
+			buildPhases = (
+				110E66992428270B0064B2EA /* Sources */,
+				110E669A2428270B0064B2EA /* Frameworks */,
+				110E669B2428270B0064B2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevigetTest;
+			productName = DevigetTest;
+			productReference = 110E669D2428270B0064B2EA /* DevigetTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110E66AE2428270C0064B2EA /* DevigetTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E66BB2428270C0064B2EA /* Build configuration list for PBXNativeTarget "DevigetTestTests" */;
+			buildPhases = (
+				110E66AB2428270C0064B2EA /* Sources */,
+				110E66AC2428270C0064B2EA /* Frameworks */,
+				110E66AD2428270C0064B2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110E66B12428270C0064B2EA /* PBXTargetDependency */,
+			);
+			name = DevigetTestTests;
+			productName = DevigetTestTests;
+			productReference = 110E66AF2428270C0064B2EA /* DevigetTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110E66952428270B0064B2EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "David Diego Gomez";
+				TargetAttributes = {
+					110E669C2428270B0064B2EA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					110E66AE2428270C0064B2EA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 110E669C2428270B0064B2EA;
+					};
+				};
+			};
+			buildConfigurationList = 110E66982428270B0064B2EA /* Build configuration list for PBXProject "DevigetTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110E66942428270B0064B2EA;
+			productRefGroup = 110E669E2428270B0064B2EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110E669C2428270B0064B2EA /* DevigetTest */,
+				110E66AE2428270C0064B2EA /* DevigetTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110E669B2428270B0064B2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E66A52428270C0064B2EA /* Assets.xcassets in Resources */,
+				110E66A82428270C0064B2EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E66AD2428270C0064B2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110E66992428270B0064B2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E66A32428270B0064B2EA /* ViewController.swift in Sources */,
+				110E66A12428270B0064B2EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E66AB2428270C0064B2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E66B42428270C0064B2EA /* DevigetTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110E66B12428270C0064B2EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110E669C2428270B0064B2EA /* DevigetTest */;
+			targetProxy = 110E66B02428270C0064B2EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110E66A62428270C0064B2EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110E66A72428270C0064B2EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110E66B62428270C0064B2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		110E66B72428270C0064B2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		110E66B92428270C0064B2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevigetTest/DevigetTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S2BEC8V882;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DevigetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.DevigetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		110E66BA2428270C0064B2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevigetTest/DevigetTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S2BEC8V882;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DevigetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.DevigetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		110E66BC2428270C0064B2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S2BEC8V882;
+				INFOPLIST_FILE = DevigetTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.DevigetTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevigetTest.app/Contents/MacOS/DevigetTest";
+			};
+			name = Debug;
+		};
+		110E66BD2428270C0064B2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S2BEC8V882;
+				INFOPLIST_FILE = DevigetTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.DevigetTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevigetTest.app/Contents/MacOS/DevigetTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110E66982428270B0064B2EA /* Build configuration list for PBXProject "DevigetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E66B62428270C0064B2EA /* Debug */,
+				110E66B72428270C0064B2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110E66B82428270C0064B2EA /* Build configuration list for PBXNativeTarget "DevigetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E66B92428270C0064B2EA /* Debug */,
+				110E66BA2428270C0064B2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110E66BB2428270C0064B2EA /* Build configuration list for PBXNativeTarget "DevigetTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E66BC2428270C0064B2EA /* Debug */,
+				110E66BD2428270C0064B2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110E66952428270B0064B2EA /* Project object */;
+}
