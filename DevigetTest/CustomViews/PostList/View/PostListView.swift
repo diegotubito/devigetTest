@@ -51,8 +51,8 @@ class PostListView: NSView {
     }
     
     func startLoading() {
-        //viewModel.loadNetoworkPosts()
-        viewModel.loadPostFromJSONFile()
+        viewModel.loadNetoworkPosts()
+        //viewModel.loadPostFromJSONFile()
     }
     
     @IBAction func dismissAllPressed(_ sender: Any) {
@@ -203,7 +203,6 @@ extension PostListView: NSTableViewDataSource, NSTableViewDelegate {
             
         }
     }
-    
     
     func tableView(_ tableView: NSTableView, rowViewForRow row: Int) -> NSTableRowView? {
         return MyNSTableRowView()

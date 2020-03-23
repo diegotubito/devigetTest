@@ -25,12 +25,10 @@ class PostDetailViewModel: PostDetailViewModelContract {
         return model.post
     }
     
-    
-    
     func downloadImageFromUrl(url: String, result: @escaping (NSImage?, String) -> Void, fail: @escaping (ServiceError?, String) -> Void) {
         if let imageFromCache = imageCache.object(forKey: url as AnyObject) as? NSImage {
             result(imageFromCache, url)
-   
+            
             return
         }
         
@@ -62,8 +60,6 @@ class PostDetailViewModel: PostDetailViewModelContract {
                 
                 return
             }
-            
-            
         }
         dataTask.resume()
         
@@ -71,13 +67,11 @@ class PostDetailViewModel: PostDetailViewModelContract {
     
     func setSelectedPost(_ post: Post?) {
         model.post = post
-        self._view.showLoading()
-        self._view.clearData()
         if post == nil {
-            _view.hideLoading()
-            
+            self._view.clearData()
             return
         }
+        _view.showLoading()
         _view.displayText()
         
         let thumbnail = post?.data.thumbnail ?? ""
@@ -90,7 +84,6 @@ class PostDetailViewModel: PostDetailViewModelContract {
             self._view.hideLoading()
             self.model.image = nil
             self._view.displayImage()
-
         }
     }
     
