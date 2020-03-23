@@ -25,6 +25,12 @@
 		110E66DD242832300064B2EA /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66DC242832300064B2EA /* PostListViewModel.swift */; };
 		110E66DF242832390064B2EA /* PostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66DE242832390064B2EA /* PostListModel.swift */; };
 		110E66E1242833400064B2EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66E0242833400064B2EA /* Extensions.swift */; };
+		110E66E724284EF60064B2EA /* PostDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66E624284EF60064B2EA /* PostDetailModel.swift */; };
+		110E66E924284F040064B2EA /* PostDetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66E824284F040064B2EA /* PostDetailViewModelProtocol.swift */; };
+		110E66EB24284F110064B2EA /* PostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66EA24284F110064B2EA /* PostDetailViewModel.swift */; };
+		110E66ED24284F240064B2EA /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66EC24284F240064B2EA /* PostDetailView.swift */; };
+		110E66EF24284F3C0064B2EA /* PostDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110E66EE24284F3C0064B2EA /* PostDetailView.xib */; };
+		110E66F1242851050064B2EA /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66F0242851050064B2EA /* XibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		110E66DC242832300064B2EA /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 		110E66DE242832390064B2EA /* PostListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListModel.swift; sourceTree = "<group>"; };
 		110E66E0242833400064B2EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		110E66E624284EF60064B2EA /* PostDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailModel.swift; sourceTree = "<group>"; };
+		110E66E824284F040064B2EA /* PostDetailViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		110E66EA24284F110064B2EA /* PostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewModel.swift; sourceTree = "<group>"; };
+		110E66EC24284F240064B2EA /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		110E66EE24284F3C0064B2EA /* PostDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailView.xib; sourceTree = "<group>"; };
+		110E66F0242851050064B2EA /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +153,7 @@
 				110E66C42428287D0064B2EA /* model.swift */,
 				110E66C6242828CC0064B2EA /* ReadJSON.swift */,
 				110E66E0242833400064B2EA /* Extensions.swift */,
+				110E66F0242851050064B2EA /* XibView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -156,6 +169,7 @@
 		110E66CE242830FC0064B2EA /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				110E66E224284EC80064B2EA /* PostDetail */,
 				110E66CF242831380064B2EA /* PostList */,
 			);
 			path = CustomViews;
@@ -204,6 +218,42 @@
 				110E66D6242831B20064B2EA /* PostListCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		110E66E224284EC80064B2EA /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				110E66E524284EE50064B2EA /* Model */,
+				110E66E424284EE10064B2EA /* ViewModel */,
+				110E66E324284EDC0064B2EA /* View */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		110E66E324284EDC0064B2EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				110E66EC24284F240064B2EA /* PostDetailView.swift */,
+				110E66EE24284F3C0064B2EA /* PostDetailView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		110E66E424284EE10064B2EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				110E66E824284F040064B2EA /* PostDetailViewModelProtocol.swift */,
+				110E66EA24284F110064B2EA /* PostDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		110E66E524284EE50064B2EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				110E66E624284EF60064B2EA /* PostDetailModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +341,7 @@
 				110E66A82428270C0064B2EA /* Main.storyboard in Resources */,
 				110E66D9242831EE0064B2EA /* PostListView.xib in Resources */,
 				110E66C9242829140064B2EA /* top.json in Resources */,
+				110E66EF24284F3C0064B2EA /* PostDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,15 +362,20 @@
 				110E66C52428287D0064B2EA /* model.swift in Sources */,
 				110E66DB242832230064B2EA /* PostListViewModelProtocol.swift in Sources */,
 				110E66DD242832300064B2EA /* PostListViewModel.swift in Sources */,
+				110E66ED24284F240064B2EA /* PostDetailView.swift in Sources */,
 				110E66A32428270B0064B2EA /* HomeViewController.swift in Sources */,
+				110E66F1242851050064B2EA /* XibView.swift in Sources */,
 				110E66A12428270B0064B2EA /* AppDelegate.swift in Sources */,
 				110E66C7242828CC0064B2EA /* ReadJSON.swift in Sources */,
 				110E66C02428282B0064B2EA /* RedditService.swift in Sources */,
 				110E66E1242833400064B2EA /* Extensions.swift in Sources */,
 				110E66C3242828480064B2EA /* Constants.swift in Sources */,
 				110E66DF242832390064B2EA /* PostListModel.swift in Sources */,
+				110E66E724284EF60064B2EA /* PostDetailModel.swift in Sources */,
+				110E66E924284F040064B2EA /* PostDetailViewModelProtocol.swift in Sources */,
 				110E66D4242831750064B2EA /* PostListView.swift in Sources */,
 				110E66D7242831B20064B2EA /* PostListCell.swift in Sources */,
+				110E66EB24284F110064B2EA /* PostDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

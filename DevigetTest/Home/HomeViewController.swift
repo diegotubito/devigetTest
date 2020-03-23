@@ -12,6 +12,10 @@ class HomeViewController: NSViewController {
     var postListView : PostListView!
     @IBOutlet weak var postListContainerView: NSView!
     
+    var postDetailView : PostDetailView!
+    @IBOutlet weak var postDetailContainerView: NSView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +26,8 @@ class HomeViewController: NSViewController {
     
     override func viewDidAppear() {
         super .viewDidAppear()
-         self.createPostListView()
+        createPostListView()
+        creatrePostDetailView()
     }
     
     override var representedObject: Any? {
@@ -57,10 +62,14 @@ class HomeViewController: NSViewController {
         postListContainerView.addSubview(postListView)
         
         postListView.didSelectPost = { selectedPost in
-            
+            self.postDetailView.viewModel.setSelectedPost(selectedPost)
         }
-        
     }
+    
+    func creatrePostDetailView() {
+           postDetailView = PostDetailView(frame: CGRect(x: 0, y: 0, width: postDetailContainerView.frame.width, height: postDetailContainerView.frame.height))
+           postDetailContainerView.addSubview(postDetailView)
+       }
     
 }
 

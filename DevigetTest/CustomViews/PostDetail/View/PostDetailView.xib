@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PostDetailView" customModule="DevigetTest" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="cIe-aR-8dD" id="OTO-jN-XEu"/>
+                <outlet property="authorLabel" destination="PlI-6y-Ber" id="tuo-Zb-u6V"/>
+                <outlet property="imageView" destination="yc5-2G-7hx" id="IcP-yT-z3T"/>
+                <outlet property="titleLabel" destination="ewc-d5-MNg" id="BCW-bc-QpU"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="2BE-Xk-0Ns">
+            <rect key="frame" x="0.0" y="0.0" width="584" height="403"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PlI-6y-Ber">
+                    <rect key="frame" x="6" y="373" width="572" height="22"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" id="EUD-Wy-8P0">
+                        <font key="font" metaFont="system" size="19"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ewc-d5-MNg">
+                    <rect key="frame" x="6" y="43" width="572" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" id="e5b-wF-dpx">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yc5-2G-7hx">
+                    <rect key="frame" x="167" y="91" width="250" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="yc5-2G-7hx" secondAttribute="height" multiplier="1:1" id="O77-72-6ij"/>
+                        <constraint firstAttribute="width" constant="250" id="lzT-NF-Py5"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" id="tky-qy-xrE"/>
+                </imageView>
+                <progressIndicator wantsLayer="YES" maxValue="100" displayedWhenStopped="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-aR-8dD">
+                    <rect key="frame" x="284" y="208" width="16" height="16"/>
+                </progressIndicator>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ewc-d5-MNg" firstAttribute="leading" secondItem="2BE-Xk-0Ns" secondAttribute="leading" constant="8" id="2zB-vk-ScK"/>
+                <constraint firstAttribute="trailing" secondItem="ewc-d5-MNg" secondAttribute="trailing" constant="8" id="4KH-bk-vl5"/>
+                <constraint firstAttribute="trailing" secondItem="PlI-6y-Ber" secondAttribute="trailing" constant="8" id="9SD-c0-ROa"/>
+                <constraint firstItem="PlI-6y-Ber" firstAttribute="leading" secondItem="2BE-Xk-0Ns" secondAttribute="leading" constant="8" id="9pW-eS-W8O"/>
+                <constraint firstItem="cIe-aR-8dD" firstAttribute="centerX" secondItem="yc5-2G-7hx" secondAttribute="centerX" id="Phq-rm-7m4"/>
+                <constraint firstItem="yc5-2G-7hx" firstAttribute="top" secondItem="PlI-6y-Ber" secondAttribute="bottom" constant="32" id="iSu-F7-hJG"/>
+                <constraint firstItem="ewc-d5-MNg" firstAttribute="top" secondItem="yc5-2G-7hx" secondAttribute="bottom" constant="32" id="jay-83-0O0"/>
+                <constraint firstItem="cIe-aR-8dD" firstAttribute="centerY" secondItem="yc5-2G-7hx" secondAttribute="centerY" id="k6Y-J7-V3G"/>
+                <constraint firstItem="PlI-6y-Ber" firstAttribute="top" secondItem="2BE-Xk-0Ns" secondAttribute="top" constant="8" id="mA3-qp-I02"/>
+                <constraint firstItem="yc5-2G-7hx" firstAttribute="centerX" secondItem="2BE-Xk-0Ns" secondAttribute="centerX" id="ufi-bh-qIo"/>
+            </constraints>
+            <point key="canvasLocation" x="191" y="256.5"/>
+        </customView>
+    </objects>
+</document>

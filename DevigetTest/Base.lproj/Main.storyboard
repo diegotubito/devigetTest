@@ -729,6 +729,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="postDetailContainerView" destination="vXm-J0-mJr" id="sad-pJ-W66"/>
                         <outlet property="postListContainerView" destination="i0z-JE-YHg" id="qaf-aV-ThT"/>
                     </connections>
                 </viewController>
