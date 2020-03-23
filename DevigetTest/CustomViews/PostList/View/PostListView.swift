@@ -114,7 +114,7 @@ extension PostListView: NSTableViewDataSource, NSTableViewDelegate {
     
         let author = data.author
         let date = Date(timeIntervalSince1970: data.created)
-        let createdAt = date.getElapsedInterval()
+        let createdAt = timeAgoSinceDate(date)
         let title = data.title
         let comments = data.num_comments
         let imageUrl = data.thumbnail

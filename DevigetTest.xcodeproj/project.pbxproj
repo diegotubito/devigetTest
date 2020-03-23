@@ -31,6 +31,7 @@
 		110E66ED24284F240064B2EA /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66EC24284F240064B2EA /* PostDetailView.swift */; };
 		110E66EF24284F3C0064B2EA /* PostDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110E66EE24284F3C0064B2EA /* PostDetailView.xib */; };
 		110E66F1242851050064B2EA /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66F0242851050064B2EA /* XibView.swift */; };
+		110E66F52428663C0064B2EA /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66F42428663C0064B2EA /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		110E66EC24284F240064B2EA /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		110E66EE24284F3C0064B2EA /* PostDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailView.xib; sourceTree = "<group>"; };
 		110E66F0242851050064B2EA /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		110E66F42428663C0064B2EA /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				110E66C6242828CC0064B2EA /* ReadJSON.swift */,
 				110E66E0242833400064B2EA /* Extensions.swift */,
 				110E66F0242851050064B2EA /* XibView.swift */,
+				110E66F42428663C0064B2EA /* Global.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				110E66F1242851050064B2EA /* XibView.swift in Sources */,
 				110E66A12428270B0064B2EA /* AppDelegate.swift in Sources */,
 				110E66C7242828CC0064B2EA /* ReadJSON.swift in Sources */,
+				110E66F52428663C0064B2EA /* Global.swift in Sources */,
 				110E66C02428282B0064B2EA /* RedditService.swift in Sources */,
 				110E66E1242833400064B2EA /* Extensions.swift in Sources */,
 				110E66C3242828480064B2EA /* Constants.swift in Sources */,
