@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DevigetTest" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -700,18 +701,40 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <viewController id="XfG-lQ-9wD" customClass="HomeViewController" customModule="DevigetTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="8Qd-1Q-MyY">
+                        <rect key="frame" x="0.0" y="0.0" width="1203" height="573"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="i0z-JE-YHg">
+                                <rect key="frame" x="0.0" y="0.0" width="402" height="573"/>
+                            </customView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="vXm-J0-mJr">
+                                <rect key="frame" x="410" y="0.0" width="793" height="573"/>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="vXm-J0-mJr" firstAttribute="width" secondItem="8Qd-1Q-MyY" secondAttribute="width" multiplier="0.659459" id="5Fq-gK-sMK"/>
+                            <constraint firstItem="vXm-J0-mJr" firstAttribute="top" secondItem="8Qd-1Q-MyY" secondAttribute="top" id="CT2-Y2-ZrM"/>
+                            <constraint firstAttribute="bottom" secondItem="vXm-J0-mJr" secondAttribute="bottom" id="G0C-Nx-8BZ"/>
+                            <constraint firstAttribute="bottom" secondItem="i0z-JE-YHg" secondAttribute="bottom" id="bKW-Rg-rvh"/>
+                            <constraint firstAttribute="trailing" secondItem="vXm-J0-mJr" secondAttribute="trailing" id="dYK-8z-LM3"/>
+                            <constraint firstItem="i0z-JE-YHg" firstAttribute="top" secondItem="8Qd-1Q-MyY" secondAttribute="top" id="mQ0-IB-oWg"/>
+                            <constraint firstItem="vXm-J0-mJr" firstAttribute="leading" secondItem="i0z-JE-YHg" secondAttribute="trailing" constant="8" symbolic="YES" id="taW-SL-WtR"/>
+                            <constraint firstItem="i0z-JE-YHg" firstAttribute="leading" secondItem="8Qd-1Q-MyY" secondAttribute="leading" id="uWD-Iq-t7Q"/>
+                            <constraint firstItem="i0z-JE-YHg" firstAttribute="width" secondItem="8Qd-1Q-MyY" secondAttribute="width" multiplier="0.33389" id="xbw-kT-gef"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="postListContainerView" destination="i0z-JE-YHg" id="qaf-aV-ThT"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="74.5" y="1149.5"/>
         </scene>
     </scenes>
 </document>

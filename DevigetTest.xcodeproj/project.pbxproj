@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		110E66A12428270B0064B2EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66A02428270B0064B2EA /* AppDelegate.swift */; };
-		110E66A32428270B0064B2EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66A22428270B0064B2EA /* ViewController.swift */; };
+		110E66A32428270B0064B2EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66A22428270B0064B2EA /* HomeViewController.swift */; };
 		110E66A52428270C0064B2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110E66A42428270C0064B2EA /* Assets.xcassets */; };
 		110E66A82428270C0064B2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110E66A62428270C0064B2EA /* Main.storyboard */; };
 		110E66B42428270C0064B2EA /* DevigetTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66B32428270C0064B2EA /* DevigetTestTests.swift */; };
@@ -18,6 +18,13 @@
 		110E66C7242828CC0064B2EA /* ReadJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66C6242828CC0064B2EA /* ReadJSON.swift */; };
 		110E66C9242829140064B2EA /* top.json in Resources */ = {isa = PBXBuildFile; fileRef = 110E66C8242829140064B2EA /* top.json */; };
 		110E66CB2428295E0064B2EA /* ServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66CA2428295E0064B2EA /* ServiceTest.swift */; };
+		110E66D4242831750064B2EA /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66D3242831750064B2EA /* PostListView.swift */; };
+		110E66D7242831B20064B2EA /* PostListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66D6242831B20064B2EA /* PostListCell.swift */; };
+		110E66D9242831EE0064B2EA /* PostListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110E66D8242831EE0064B2EA /* PostListView.xib */; };
+		110E66DB242832230064B2EA /* PostListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66DA242832230064B2EA /* PostListViewModelProtocol.swift */; };
+		110E66DD242832300064B2EA /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66DC242832300064B2EA /* PostListViewModel.swift */; };
+		110E66DF242832390064B2EA /* PostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66DE242832390064B2EA /* PostListModel.swift */; };
+		110E66E1242833400064B2EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E66E0242833400064B2EA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +40,7 @@
 /* Begin PBXFileReference section */
 		110E669D2428270B0064B2EA /* DevigetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevigetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110E66A02428270B0064B2EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		110E66A22428270B0064B2EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		110E66A22428270B0064B2EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		110E66A42428270C0064B2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110E66A72428270C0064B2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		110E66A92428270C0064B2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		110E66C6242828CC0064B2EA /* ReadJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJSON.swift; sourceTree = "<group>"; };
 		110E66C8242829140064B2EA /* top.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top.json; sourceTree = "<group>"; };
 		110E66CA2428295E0064B2EA /* ServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTest.swift; sourceTree = "<group>"; };
+		110E66D3242831750064B2EA /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		110E66D6242831B20064B2EA /* PostListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListCell.swift; sourceTree = "<group>"; };
+		110E66D8242831EE0064B2EA /* PostListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostListView.xib; sourceTree = "<group>"; };
+		110E66DA242832230064B2EA /* PostListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModelProtocol.swift; sourceTree = "<group>"; };
+		110E66DC242832300064B2EA /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		110E66DE242832390064B2EA /* PostListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListModel.swift; sourceTree = "<group>"; };
+		110E66E0242833400064B2EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +105,8 @@
 				110E66A02428270B0064B2EA /* AppDelegate.swift */,
 				110E66C12428283C0064B2EA /* Common */,
 				110E66BE242827E30064B2EA /* Service */,
-				110E66A22428270B0064B2EA /* ViewController.swift */,
+				110E66CE242830FC0064B2EA /* CustomViews */,
+				110E66CC24282C750064B2EA /* Home */,
 				110E66A42428270C0064B2EA /* Assets.xcassets */,
 				110E66C8242829140064B2EA /* top.json */,
 				110E66A62428270C0064B2EA /* Main.storyboard */,
@@ -125,8 +140,70 @@
 				110E66C2242828480064B2EA /* Constants.swift */,
 				110E66C42428287D0064B2EA /* model.swift */,
 				110E66C6242828CC0064B2EA /* ReadJSON.swift */,
+				110E66E0242833400064B2EA /* Extensions.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		110E66CC24282C750064B2EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				110E66A22428270B0064B2EA /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		110E66CE242830FC0064B2EA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				110E66CF242831380064B2EA /* PostList */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		110E66CF242831380064B2EA /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				110E66D22428314B0064B2EA /* Model */,
+				110E66D1242831470064B2EA /* ViewModel */,
+				110E66D0242831420064B2EA /* View */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		110E66D0242831420064B2EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				110E66D5242831A50064B2EA /* Cell */,
+				110E66D3242831750064B2EA /* PostListView.swift */,
+				110E66D8242831EE0064B2EA /* PostListView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		110E66D1242831470064B2EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				110E66DA242832230064B2EA /* PostListViewModelProtocol.swift */,
+				110E66DC242832300064B2EA /* PostListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		110E66D22428314B0064B2EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				110E66DE242832390064B2EA /* PostListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		110E66D5242831A50064B2EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				110E66D6242831B20064B2EA /* PostListCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +289,7 @@
 			files = (
 				110E66A52428270C0064B2EA /* Assets.xcassets in Resources */,
 				110E66A82428270C0064B2EA /* Main.storyboard in Resources */,
+				110E66D9242831EE0064B2EA /* PostListView.xib in Resources */,
 				110E66C9242829140064B2EA /* top.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,11 +309,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				110E66C52428287D0064B2EA /* model.swift in Sources */,
-				110E66A32428270B0064B2EA /* ViewController.swift in Sources */,
+				110E66DB242832230064B2EA /* PostListViewModelProtocol.swift in Sources */,
+				110E66DD242832300064B2EA /* PostListViewModel.swift in Sources */,
+				110E66A32428270B0064B2EA /* HomeViewController.swift in Sources */,
 				110E66A12428270B0064B2EA /* AppDelegate.swift in Sources */,
 				110E66C7242828CC0064B2EA /* ReadJSON.swift in Sources */,
 				110E66C02428282B0064B2EA /* RedditService.swift in Sources */,
+				110E66E1242833400064B2EA /* Extensions.swift in Sources */,
 				110E66C3242828480064B2EA /* Constants.swift in Sources */,
+				110E66DF242832390064B2EA /* PostListModel.swift in Sources */,
+				110E66D4242831750064B2EA /* PostListView.swift in Sources */,
+				110E66D7242831B20064B2EA /* PostListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
